@@ -32,6 +32,8 @@ create admin account for greenlight
 > cd ~/greenlight
 > sudo docker exec greenlight-v2 bundle exec rake user:create["Admin","me@yourmail.com","N00b@yourpasswd","admin"]
 
+then you can move on to https://bbb.yourdomain.com/b/signin for greenlight UI
+
 get secret
 > bbb-conf --secret
 
