@@ -30,7 +30,7 @@ Install BBB using following command
 
 create admin account for greenlight
 > cd ~/greenlight
-> sudo docker exec greenlight-v2 bundle exec rake user:create["Admin","me@yourmail.com","N00b@123","admin"]
+> sudo docker exec greenlight-v2 bundle exec rake user:create["Admin","me@yourmail.com","N00b@yourpasswd","admin"]
 
 get secret
 > bbb-conf --secret
