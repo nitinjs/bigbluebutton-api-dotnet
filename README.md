@@ -17,8 +17,9 @@ Roadmap:
 Installation instructions
 # STEP1
 you need to create "A" record in your DNS zone file and point it to your static IP address of server
-e.g. A  bbb  10.10.8.8
-so that bbb.yourdomain.com points to the ubuntu server
+e.g. 
+> A  bbb  10.10.8.8
+above record makes bbb.yourdomain.com pointing to your ubuntu server
 
 # STEP 2
 SSH to your ubuntu server, login as root user
