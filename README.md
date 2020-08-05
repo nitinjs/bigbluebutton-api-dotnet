@@ -4,7 +4,7 @@
 BigBlueButton .NET API
 https://docs.bigbluebutton.org/dev/api.html#API_
 
-Roadmap:
+## Roadmap:
 1. basic api executions (done)
 2. sample console client app (done)
 3. first release 
@@ -14,15 +14,16 @@ Roadmap:
 | <img src="https://www.google.com/a/cpanel/nitinsawant.com/images/logo.gif?service=google_gsuite" width="150"> |
 
 
-Installation instructions
-# STEP1
+# Installation instructions
+BigBlueButton requires Ubuntu 16.04 64-bit
+## STEP1
 you need to create "A" record in your DNS zone file and point it to your static IP address of server
 e.g. 
 > A  bbb  10.10.8.8
 
 above record makes bbb.yourdomain.com pointing to your ubuntu server
 
-# STEP 2
+## STEP 2
 SSH to your ubuntu server, login as root user
 
 Install BBB using following command
