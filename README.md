@@ -5,8 +5,8 @@ BigBlueButton .NET API
 https://docs.bigbluebutton.org/dev/api.html#API_
 
 Roadmap:
-1. basic api executions
-2. sample console client app
+1. basic api executions (done)
+2. sample console client app (done)
 3. first release 
 
 | created by Nitin Sawant  |
