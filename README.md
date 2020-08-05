@@ -17,11 +17,11 @@ Roadmap:
 Installation instructions for N00bs
 
 --Install BBB using following command--
-> sudo wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | sudo bash -s -- -w -v xenial-22 -a -w -g -s bbb.insproplus.com -e nitin@nitinsawant.com
+> sudo wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | sudo bash -s -- -w -v xenial-22 -a -w -g -s bbb.yourdomain.com -e me@yourmail.com
 
 --create admin account--
 > cd ~/greenlight
-> sudo docker exec greenlight-v2 bundle exec rake user:create["Admin","nitin@nitinsawant.com","N00b@123","admin"]
+> sudo docker exec greenlight-v2 bundle exec rake user:create["Admin","me@yourmail.com","N00b@123","admin"]
 
 --get secret--
 > bbb-conf --secret
