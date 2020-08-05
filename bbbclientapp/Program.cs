@@ -1,18 +1,15 @@
+﻿using bigbluebutton;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Reflection;
-using System.Security.Cryptography;
-using System.Text;
 
-namespace bigbluebutton
+namespace bbbclientapp
 {
     class Program
     {
         static void Main(string[] args)
         {
+            ClsBigBlueButton.StrServerIPAddress = "https://bbb.YOUR_DOMAIN.com/bigbluebutton/api/";//put your domain name here
+            ClsBigBlueButton.StrSalt = "--YOUR_API_SECRET_HERE--";//execute this command on ubuntu server: bbb-conf --secret
+
             //DataTable dt = new DataTable();
             dynamic dt;
             ClsBigBlueButton ObjBigBlueButton = new ClsBigBlueButton();
@@ -118,7 +115,6 @@ namespace bigbluebutton
             dt = ObjBigBlueButton.deleteRecordings(deleteRecordingsParameters);
             #endregion
             Console.ReadLine();
-
         }
     }
 }

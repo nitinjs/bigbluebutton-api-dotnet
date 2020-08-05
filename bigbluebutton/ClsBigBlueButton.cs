@@ -11,14 +11,13 @@ using System.Reflection;
 using System.Text;
 using System.Xml.Linq;
 using System.Xml.Serialization;
-using static bigbluebutton.Program;
 
 namespace bigbluebutton
 {
     public class ClsBigBlueButton
     {
-        string StrServerIPAddress = "https://bbb.YOUR_DOMAIN.com/bigbluebutton/api/";
-        string StrSalt = "--YOUR_API_SECRET_HERE--";//execute this command bbb-conf --secret
+        public static string StrServerIPAddress { get; set; }
+        public static string StrSalt { get; set; }
         #region "CreateMeeting"      
         /// <summary>
         /// Creates the Meeting
@@ -75,7 +74,6 @@ namespace bigbluebutton
                 }
                 Console.WriteLine("querystring" + querystring);
 
-                //string StrParameters = "name=Mkalaiselvi&meetingID=a2b&attendeePW=selvi&moderatorPW=kalai";
                 string StrParameters = querystring;
 
                 string StrSHA1_CheckSum = ClsData.getSha1("create" + StrParameters + StrSalt);
