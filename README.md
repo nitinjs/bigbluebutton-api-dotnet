@@ -19,6 +19,7 @@ Installation instructions
 you need to create "A" record in your DNS zone file and point it to your static IP address of server
 e.g. 
 > A  bbb  10.10.8.8
+
 above record makes bbb.yourdomain.com pointing to your ubuntu server
 
 # STEP 2
