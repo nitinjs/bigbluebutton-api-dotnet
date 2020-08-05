@@ -9,4 +9,6 @@ Roadmap:
 2. sample console client app
 3. first release 
 
-![created by Nitin Sawant](https://www.google.com/a/cpanel/nitinsawant.com/images/logo.gif?service=google_gsuite)
+| created by Nitin Sawant  |
+|------------|
+| <img src="https://www.google.com/a/cpanel/nitinsawant.com/images/logo.gif?service=google_gsuite" width="150"> |
