@@ -1,3 +1,5 @@
+//Created by Nitin Sawant<nitin@nitinsawant.com>
+//Copyright (c) 2020 zikbee.com
 using bigbluebutton.Response;
 using Newtonsoft.Json;
 using System;

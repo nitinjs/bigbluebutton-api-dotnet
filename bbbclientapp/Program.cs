@@ -1,4 +1,6 @@
-﻿using bigbluebutton;
+﻿//Created by Nitin Sawant<nitin@nitinsawant.com>
+//Copyright (c) 2020 zikbee.com
+using bigbluebutton;
 using System;
 
 namespace bbbclientapp

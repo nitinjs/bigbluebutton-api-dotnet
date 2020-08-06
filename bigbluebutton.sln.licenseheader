@@ -1,0 +1,17 @@
+﻿extensions: designer.cs generated.cs
+extensions: .cs .cpp .h
+//Created by Nitin Sawant<nitin@nitinsawant.com>
+//Copyright (c) 2020 zikbee.com
+extensions: .aspx .ascx
+<%-- 
+Created by Nitin Sawant<nitin@nitinsawant.com>
+Copyright (c) 2020 zikbee.com
+--%>
+extensions: .vb
+'Created by Nitin Sawant<nitin@nitinsawant.com>
+'Copyright (c) 2020 zikbee.com
+extensions:  .xml .config .xsd
+<!--
+Created by Nitin Sawant<nitin@nitinsawant.com>
+Copyright (c) 2020 zikbee.com
+-->
