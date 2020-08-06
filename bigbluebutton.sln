@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bigbluebutton", "bigbluebutton\bigbluebutton.csproj", "{46DCD973-F3A8-4352-9EB4-4DA54EE45581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bbbclientapp", "bbbclientapp\bbbclientapp.csproj", "{BF2637B9-1D77-4BB3-9676-01F312336D05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bbbclientapp", "bbbclientapp\bbbclientapp.csproj", "{BF2637B9-1D77-4BB3-9676-01F312336D05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

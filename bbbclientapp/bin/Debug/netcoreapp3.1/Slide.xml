@@ -1,9 +1,0 @@
-﻿<!--
-Created by Nitin Sawant<nitin@nitinsawant.com>
-Copyright (c) 2020 zikbee.com
--->
-<modules>
-  <module name="presentation">
-    <document url="https://www.princeton.edu/~archss/webpdfs08/BaharMartonosi.pdf" filename="presentation.pdf"/>
-  </module>
-</modules>
