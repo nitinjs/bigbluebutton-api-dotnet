@@ -46,4 +46,3 @@ you need to put this secret in the ClsBigBlueButton.cs set the StrSalt property 
 to renew the certificates(when your free SSL cert expires)
 > certbot renew 
 
-[donate](https://paypal.me/nitinsa1?locale.x=en_GB)
